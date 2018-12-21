@@ -1,0 +1,36 @@
+img {max-width: 100%;}
+
+.placeholders {z-index: 1;
+opacity: 0.3; position: relative;}
+
+.threeblocks  {position: absolute; top: 10px;
+}
+nav {
+
+  width: 100%;
+  display: block;
+  background-color: navy;
+  overflow: hidden;
+  z-index: 10;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+
+  /* This allows the navbar to float on TOP */
+}
+nav a {color: white; margin: 10px; text-decoration: none;}
+nav a:hover {color: blue; background-color: white;}
+header { max-width: 100%;}
+/* #headings {position: absolute; top: -500px;} */
+
+.u-full-width {text-align: center;}
+
+footer {
+background-color: navy;
+color: white;
+text-align: center; }
+
+/* -------------------About page---------------------------- */
+
+header img {position: relative; top:-100px; z-index: -100;}
+#headings {position: absolute; z-index: 100; top: -500px; color: white;
+font-family: 'Dosis', sans-serif;}
