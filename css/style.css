@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600px) {
+  .four .columns {
+    width: 100%;
+  }
+}
+/* Media query for mobile devices */
+
+
 img {max-width: 100%;}
 
 .placeholders {z-index: 1;
@@ -17,8 +25,8 @@ nav {
 
   /* This allows the navbar to float on TOP */
 }
-nav a {color: white; margin: 10px; text-decoration: none;}
-nav a:hover {color: blue; background-color: white;}
+nav a {color: white; margin: 15px; text-decoration: none; font-size: 24px;}
+nav a:hover {color: blue; background-color: white; opacity: 0.8;}
 header { max-width: 100%;}
 /* #headings {position: absolute; top: -500px;} */
 
@@ -32,5 +40,5 @@ text-align: center; }
 /* -------------------About page---------------------------- */
 
 header img {position: relative; top:-100px; z-index: -100;}
-#headings {position: absolute; z-index: 100; top: -500px; color: white;
+#headings {position: absolute; z-index: 100; bottom: 25rem; color: white;
 font-family: 'Dosis', sans-serif;}
