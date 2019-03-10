@@ -1,0 +1,36 @@
+/* @media only screen and (max-width: 600px) {
+  .four .columns {
+    width: 100%;
+  }
+} */
+/* Media query for mobile devices */
+
+
+img {max-width: 100%;}
+
+.backgrd {position: relative; z-index: 1;}
+
+.textontop {color: white; position: absolute; z-index: 10; top: 20rem; background: rgba(255, 255, 255, 0.3); margin: 2rem;}
+
+.textontop2 {color: red; position: absolute; z-index: 10;top: 50rem; }
+
+
+
+/* #headings {position: absolute; top: -500px;} */
+.boxes .four {position: relative;}
+
+.threeblocks {z-index: 100; bottom: 5px; left: 0;
+ position:absolute; text-align: center; background: white;}
+
+.activityimages  { height: 30rem;
+ z-index: 10; position: relative; opacity: 0.4;}
+
+.u-full-width {text-align: center;}
+
+
+footer {
+background-color: navy;
+color: white;
+text-align: center; }
+
+/* -------------------About page---------------------------- */

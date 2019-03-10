@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
+
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <title>Origami Workshops</title>
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
@@ -14,102 +15,136 @@
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About Us</a>
-    <a href="Workshops.html">Workshops</a>
+    <a href="workshops.html">Workshops</a>
     <a href="projects.html">Projects</a>
+  <a href="https://www.instagram.com/soasorigami/?hl=en">  <img class="logo" src="images/insta.svg"></a>
   </nav>
 
+  <div class="indexbackground">
+
+    <div class="description">
+      <h2>Origami /ˌɒrɪˈɡɑːmi/ <em>noun</em></h2>
+      <p>
+      The Japanese art of folding paper into decorative shapes and figures.</p>
+    </div>
+
+    <div class="heading-text">
+      <h1>London-based Origami Workshops </h1>
+      <h2>We are a small team of students, professionals but most importantly Origami enthusiasts who are willing to help you develop your arty side!</h2>
+    </div>
+  </div><!-- close background div  -->
 
 
-  <header>
-  <img src="images/mainbackgrd.jpg"  alt="origami table"/>
-    <div class="container">
-      <div class="row" id="headings">
-    <h1>London-based Origami Workshops </h1>
-    <h2>We are a small team of students, professionals but most importantly Origami enthusiasts who are willing to help you develop your arty side!</h2>
-</div>
-</div>
-
-  </header>
 
   <div class="container">
     <div class="row">
-      <div class="u-full-width" >
-        <h2>What do we offer?</h2>
-        <p>Click below to learn more</p>
+      <div class="u-full-width">
+        <h2>What workshops do we offer?</h2>
+        <p>Select the activity to find out more</p>
       </div>
     </div>
   </div>
 
 
   <main>
-    <div class="container">
+    <div class="container boxes">
       <div class="row">
-        <div class="four columns">
-          <a href="workshops.html">  <img src="images/activities_1.jpeg" class="placeholders" alt="origami bird"/><?a>
-          <h2 class="threeblocks">Team-building workshops</h2>
 
-
+        <div class="four columns" id="clickhere">
+          <a href="#teambuildinfo">
+            <h2 class="threeblocks">Team-building activities</h2>
+            <img src="images/activities_1.jpeg" class="activityimages" alt="origami bird" />
+          </a>
         </div>
-        <div class="four columns">
-        <a href="parties.html">  <img src="images/activities_2.jpeg" class="placeholders" alt="origami shirt"/></a>
-          <h2 class="threeblocks">Parties and celebrations</h2>
 
+        <div class="four columns" id="clickhere3">
+          <a href="#communityinfo">
+            <h2 class="threeblocks">Community<br>events</h2>
+            <img src="images/activities_3.jpeg" class="activityimages" alt="origami frog">
+          </a>
         </div>
-        <div class="four columns" >
-        <a href="community.html" > <img src="images/activities_3.jpeg" class="placeholders" alt="origami frog"/></a>
-          <h2 class="threeblocks">Community events</h2>
 
+        <div class="four columns" id="clickhere2">
+          <a href="#partyinfo">
+            <h2 class="threeblocks">Parties and Celebrations</h2>
+            <img src="images/activities_2.jpeg" class="activityimages" alt="origami shirt" />
+          </a>
         </div>
-      </div>
-    </div>
+
+      </div> <!-- close row -->
+    </div> <!-- close container -->
   </main>
 
-
-  <div class="container">
-    <div class="row">
-      <div class="u-full-width" >
+  <!-- Activity  description  -->
 
 
 
-  <form>
-  <div class="row">
-    <div class="six columns">
-      <label for="exampleEmailInput">Your email</label>
-      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-    </div>
-    <div class="six columns">
-      <label for="exampleRecipientInput">Reason for contacting</label>
-      <select class="u-full-width" id="exampleRecipientInput">
-        <option value="Option 1">Questions</option>
-        <option value="Option 2">Admiration</option>
-        <option value="Option 3">Can I get your number?</option>
-      </select>
-    </div>
-  </div>
-  <label for="exampleMessage">Message</label>
-  <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
-  <label class="example-send-yourself-copy">
-    <input type="checkbox">
-    <span class="label-body">Send a copy to yourself</span>
-  </label>
-  <input class="button-primary" type="submit" value="Submit">
-</form>
+  <section class="container">
+  <!-- Team building activities -->
+      <article class="row showonclick" id="teambuildinfo">
+        <div class="eight columns">
+          <p>Origami need not be a solitary actvity and there are many modular models that require team collaboration to complete! Our team can provide you with a fun and collaborative origami session for up to 15 participants.</p>
+          <p> Previous clients include: London Zoo, Bloomsbury Festival, SOAS Open and insight days, SOAS Wellbeing week
+            Community events: Islamia primary school, Rumi's kitchen, homeless
+            Exhibited at the Battersea arts centre as part of the Battersea art station project</p>
+          <a href="workshops.html">Click for more info on Team-building workshops</a>
+        </div>
+        <div class="four columns">
+          <img src="images/teambuilding.jpg" alt="a team">
+        </div>
+      </article>
 
-  </form>
-</div>
-</div>
-</div>
+      <!-- community events -->
+      <article class="row showonclick" id="communityinfo">
+        <div class="eight columns">
+          <p>We host workshops at various school and community evets</p>
+          <p> Community info here</p>
+          <a href="workshops.html">Click for more info on community workshops</a>
+        </div>
+        <div class="four columns">
+          <img src="images/community.jpg" alt="a party or celebration">
+        </div>
+      </article>
 
 
+      <!-- Parties and celebrations -->
+      <article class="row showonclick" id="partyinfo">
+        <div class="eight columns">
+          <p>We host workshops for Adults and children's parties!</p>
+          <p> Previous clients include: London Zoo, Bloomsbury Festival, SOAS Open and insight days, SOAS Wellbeing week
+            Community events: Islamia primary school, Rumi's kitchen, homeless
+            Exhibited at the Battersea arts centre as part of the Battersea art station project</p>
+          <a href="workshops.html">Click for more info on parties and celebrations</a>
+        </div>
+        <div class="four columns">
+          <img src="images/parties.jpg" alt="a party or celebration">
+        </div>
+      </article>
 
+
+  </section> <!-- close container section div -->
 
   <footer>
-    <p>This website was designed by Roxy - a trainee developer learning to code as part of the BT FurtHER/Codefirst:Girls project. See more of my work <a href="">here</a></p>
-    <p>Photo credits see below</p>
-    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@fabianmardi?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Fabian Mardi"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Fabian Mardi</span></a>
-    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@dev_irl?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Dev"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Dev</span></a>
+    <div class="row">
+      <div class="u-full-width">
+        <p>This website was designed by Roxy. I'm a trainee software developer who learnt to code as part of the BT FurtHER/Codefirst:Girls project. See more of my work<a href="#">here ADD LINK</a></p>
+        <p>Free stock photos from <a href="https://unsplash.com/@dev_irl?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Unsplash</a> and <a href="https://www.pexels.com">Pexels</a></p>
+
+
+    </div>
+    </div>
   </footer>
+
+
+  <!-- Javascript Scripts -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+
 
 </body>
 
-</html
+</html>

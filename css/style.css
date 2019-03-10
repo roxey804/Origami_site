@@ -1,20 +1,18 @@
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .four .columns {
     width: 100%;
   }
-}
+} */
 /* Media query for mobile devices */
 
+h1, h2, h3, p {color: navy; font-family: 'Dosis', sans-serif; text-align: center;}
 
-img {max-width: 100%;}
+img {max-width: 100%; }
+img.logo {width: 3rem;} /* favicons */
 
-.placeholders {z-index: 1;
-opacity: 0.3; position: relative;}
 
-.threeblocks  {position: absolute; top: 10px;
-}
+/* NAVbar styling  */
 nav {
-
   width: 100%;
   display: block;
   background-color: navy;
@@ -23,22 +21,66 @@ nav {
   text-align: center;
   font-family: 'Dosis', sans-serif;
 
-  /* This allows the navbar to float on TOP */
 }
 nav a {color: white; margin: 15px; text-decoration: none; font-size: 24px;}
 nav a:hover {color: blue; background-color: white; opacity: 0.8;}
-header { max-width: 100%;}
-/* #headings {position: absolute; top: -500px;} */
 
-.u-full-width {text-align: center;}
 
-footer {
-background-color: navy;
-color: white;
-text-align: center; }
+/* Home page */
+
+.indexbackground, .workshopsbackground {
+height: 100vh;
+  background-image: url("../images/mainbackgrd2.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+.workshopsbackground {
+height: 100vh;
+  background-image: url("../images/img2.jpg");
+}
+
+.heading-text {position: absolute; background-color: rgba(255, 255, 255, 0.6);  margin: 2rem; padding: 4rem;}
+
+  .description {padding: 10rem;}
+/* Text elements ABSOLUTE so they appear ON TOP of image */
+
+
+.boxes .four {position: relative;}
+
+
+.threeblocks {z-index: 100; bottom: 5px; left: 0;
+ position:absolute; text-align: center; background: white; width: 100%;}
+
+.activityimages  { height: 30rem;
+ z-index: 10; position: relative; opacity: 0.4;}
+
+a:hover .activityimages {opacity: 0.9;}
+
+.contactlink, .contactlink a {background-color: navy;
+display: inline-block; padding: 2px 8px; border-radius: 5px; font-weight: bold; color: white;}
+
+.contactlink a:hover {color: red;}
 
 /* -------------------About page---------------------------- */
 
-header img {position: relative; top:-100px; z-index: -100;}
-#headings {position: absolute; z-index: 100; bottom: 25rem; color: white;
-font-family: 'Dosis', sans-serif;}
+/* header img {position: relative; top:-100px; z-index: -100;} */
+#headings {position: absolute; z-index: 10; bottom: 40rem; color: navy;top: 0px;
+font-family: 'Dosis', sans-serif; ;}
+
+ /*-------------------Hidden activity info---------------------------- Default hidden*/
+.showonclick {display: none; margin-bottom: 1rem;}
+#teambuildinfo, #partyinfo {background-color: #F7E2EA;}
+#communityinfo {background-color: #DDEDF4;}
+
+
+
+ /* -------------------Workshops page---------------------------- */
+
+img.workshopsbackgrd {position: relative;}
+
+/* article.u-full-width {position: absolute; top:10rem;} */
+
+/* -------------------Footer---------------------------- */
+footer {background-color: navy;}
+footer p {color: white;}
